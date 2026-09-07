@@ -15,31 +15,31 @@ The goal is to represent the management of clients, employees, glasses, sales, a
 
 No application installation or build process is required. MongoDB Community Server and MongoDB Compass must be available locally.
 
-1. Clone the repository
+1. Clone the repository:
    git clone https://github.com/imjrbarreto/mongodb-structure.git
    cd mongodb-structure
 
-2. Connect to MongoDB
+2. Connect to MongoDB:
    Open MongoDB Compass and connect using:
    mongodb://localhost:27017
 
-3. Create the databases
-   Create the following databases:
-   cul_ampolla_client_view
-   cul_ampolla_glasses_view
+3. Create the databases:
+   
+   - cul_ampolla_client_view
+   - cul_ampolla_glasses_view
 
    Create these collections inside each database:
-   clients
-   employees
-   glasses
-   sales
-   suppliers
+   - clients
+   - employees
+   - glasses
+   - sales
+   - suppliers
 
-4. Import the JSON files
+5. Import the JSON files:
    For each database:
-   Open the corresponding collection in MongoDB Compass.
-   Select Add Data → Import JSON file.
-   Select the JSON file with the same name as the collection.
-   Choose JSON as the file type.
-   Complete the import.
+   - Open the corresponding collection in MongoDB Compass.
+   - Select Add Data → Import JSON file.
+   - Select the JSON file with the same name as the collection.
+   - Choose JSON as the file type.
+   - Complete the import.
 
