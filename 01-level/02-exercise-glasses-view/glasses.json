@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6a9f45858d581e6950cbdee4"
+  },
+  "brand": "Ray-Ban",
+  "frame": "metallic",
+  "frameColor": "black",
+  "glassColor": {
+    "left": "transparent",
+    "right": "transparent"
+  },
+  "price": 139,
+  "supplier": {
+    "supplier_id": {
+      "$oid": "6a9f45448d581e6950cbdede"
+    },
+    "name": "Vision SL"
+  }
+}]

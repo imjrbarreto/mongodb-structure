@@ -3,7 +3,7 @@ S2.03: Data structure - MongoDB
 
 **Description**
 NoSQL database modeling project for an optical shop called **Cul d'Ampolla**.
-The goal is to represent the management of customers, sales, glasses, providers, and employees using MongoDB documents.
+The goal is to represent the management of clients, employees, glasses, sales, and suppliers using MongoDB documents.
 
 ## 🛠 Technologies
 
@@ -11,28 +11,36 @@ The goal is to represent the management of customers, sales, glasses, providers,
 * Visual tool: MongoDB Compass
 * Data format: JSON
 
-## 🚀 Installation
+## 🚀 Database import
 
-1. Clone the repository:
+No application installation or build process is required. MongoDB Community Server and MongoDB Compass must be available locally.
 
-```bash
+1. Clone the repository
 git clone https://github.com/imjrbarreto/mongodb-structure.git
-```
+cd mongodb-structure
 
-2. Open MongoDB Compass.
+2. Connect to MongoDB
+Open MongoDB Compass and connect using:
+mongodb://localhost:27017
 
-3. Create a database named:
+3. Create the databases
+Create the following databases:
+cul_ampolla_client_view
+cul_ampolla_glasses_view
 
-```txt
-cul_dampolla
-```
-
-4. Create the following collections:
-
-```txt
-customers
+Create these collections inside each database:
+clients
+employees
 glasses
-```
+sales
+suppliers
 
-5. Import the JSON files from the `data/` folder into their corresponding collections.
+4. Import the JSON files
+For each database:
+
+Open the corresponding collection in MongoDB Compass.
+Select Add Data → Import JSON or CSV file.
+Select the JSON file with the same name as the collection.
+Choose JSON as the file type.
+Complete the import.
 

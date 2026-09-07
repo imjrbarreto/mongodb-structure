@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6a9f42338d581e6950cbdecb"
+  },
+  "purchases": [
+    {
+      "date": {
+        "$date": "2026-07-05T17:35:00.000Z"
+      },
+      "employee": {
+        "$oid": "6a9f3daa8d581e6950cbdeb1"
+      },
+      "glasses": {
+        "$oid": "6a9f3e7b8d581e6950cbdeb4"
+      },
+      "price": 139
+    }
+  ]
+}]

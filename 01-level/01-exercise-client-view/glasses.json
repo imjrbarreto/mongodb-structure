@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "6a9f3e7b8d581e6950cbdeb4"
+  },
+  "brand": "Ray-Ban",
+  "frameType": "metallic",
+  "frameColor": "black",
+  "lensColor": {
+    "left": "transparent",
+    "right": "transparent"
+  },
+  "prescription": {
+    "left": 2.3,
+    "right": 2
+  },
+  "price": 139,
+  "supplier": {
+    "$oid": "6a9f3d608d581e6950cbdeae"
+  }
+}]
