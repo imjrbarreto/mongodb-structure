@@ -46,7 +46,20 @@
     {
       "sale": {
         "$oid": "6a9f42338d581e6950cbdecb"
-      }
+      },
+      "glasses": {
+        "brand": "Ray-Ban",
+        "prescription": {
+          "left": 2.3,
+          "right": 2
+        },
+        "lensColor": {
+          "left": "transparent",
+          "right": "transparent"
+        },
+        "frameType": "metallic"
+      },
+      "price": 139
     }
   ]
 }]

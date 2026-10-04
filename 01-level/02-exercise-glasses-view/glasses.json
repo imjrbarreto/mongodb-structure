@@ -10,10 +10,15 @@
     "right": "transparent"
   },
   "price": 139,
-  "supplier": {
-    "supplier_id": {
+  "provider": {
+    "provider_id": {
       "$oid": "6a9f45448d581e6950cbdede"
     },
     "name": "Vision SL"
-  }
+  },
+  "boughtBy": [
+    {
+      "$oid": "6a9f46478d581e6950cbdeec"
+    }
+  ]
 }]
