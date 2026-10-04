@@ -5,13 +5,13 @@ S2.03: Data structure - MongoDB
 NoSQL database modeling project for an optical shop called **Cul d'Ampolla**.
 The goal is to represent the management of clients, employees, glasses, sales, and suppliers using MongoDB documents.
 
-## 🛠 Technologies
+## Technologies
 
 * Database: MongoDB
 * Visual tool: MongoDB Compass
 * Data format: JSON
 
-## 🚀 Database import
+## Database import
 
 No application installation or build process is required. MongoDB Community Server and MongoDB Compass must be available locally.
 
@@ -33,7 +33,7 @@ No application installation or build process is required. MongoDB Community Serv
    - employees
    - glasses
    - sales
-   - suppliers
+   - provider
 
 5. Import the JSON files:
    For each database:
